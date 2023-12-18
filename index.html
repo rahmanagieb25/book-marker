@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bookmarker</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel='stylesheet'  href='css/all.min.css'>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xrI5Pwmq2Syzl1f2cx5yqFp2q/hbBbC9+ZDxqeCF5rwXClaxU+lv26A+PTZS9vR8F7HT7NvCqTBk9oHHbN6APCw==" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@200&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+          
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <h2>Bookmarker</h2>
+                            <div class="card-body">
+                                <label for="siteName"> Site Name</label>
+                               <input type="text" id="siteName"> 
+                                <label for="card-url"> Site url</label>
+                               <input type="text" id="card-url"> 
+                               <button class="btn btn-outlit-danger" onclick="addSite()">submit</button>
+                               <button class="btn btn-outlit-danger" onclick="clearForm()">clear Form</button>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table text-center p-5">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th class="p-5">Name</th>
+                          <!-- <th>url</th> -->
+                          <th>Visit</th>
+                          <th>delete</th>
+ 
+                        </tr>
+                      </thead>
+                      <tbody id="products">
+                         
+                        
+                        
+
+                         
+              
+              
+                      </tbody>
+                    </table>
+                  </div>
+              
+       
+    </div>
+    <script src='js/main.js'></script>
+   
+
+
+</body>
+</html>
+
